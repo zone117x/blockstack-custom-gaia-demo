@@ -1,0 +1,26 @@
+{
+  "name": "hello-blockstack-webpack",
+  "version": "0.0.0",
+  "description": "A simple Blockstack app",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack --mode='production'",
+    "start": "webpack-dev-server",
+    "test": "webpack",
+    "lint": "eslint -f codeframe ./src",
+    "lint:fix": "eslint -f codeframe --fix ./src"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "dependencies": {
+    "blockstack": "github:blockstack/blockstack.js#feature/specify-content-length"
+  },
+  "eslintIgnore": [
+    "webpack.config.js"
+  ]
+}

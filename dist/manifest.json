@@ -1,0 +1,10 @@
+{
+  "name": "Hello, Blockstack",
+  "start_url": "localhost:9000",
+  "description": "A demo Blockstack Custom Gaia Hub",
+  "icons": [{
+    "src": "https://zone117x.github.io/blockstack-custom-gaia-demo/dist/favicon.ico",
+    "sizes": "192x192",
+    "type": "image/x-icon"
+  }]
+}
