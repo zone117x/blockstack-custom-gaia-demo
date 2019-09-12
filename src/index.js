@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const manifestUrl = toAbsoluteURL('manifest.json');
     const authRequest = userSession.makeAuthRequest(undefined, redirectUrl, manifestUrl, undefined, undefined, undefined, {
       solicitGaiaHubUrl: true,
-      recommendedGaiaHubUrl: 'https://hub.zone117x.c1.kubesail.io'
+      recommendedGaiaHubUrl: 'https://develop-hub.blockstack.org'
     })
     userSession.redirectToSignInWithAuthRequest(authRequest);
   });

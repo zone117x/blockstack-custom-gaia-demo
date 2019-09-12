@@ -4,7 +4,8 @@ module.exports = (env, argv) => {
   const isProd = argv.mode === 'production';
   const opts = {
     devServer: {
-      contentBase: path.join(__dirname, 'dist'),
+      contentBase: [__dirname, path.join(__dirname, 'dist')],
+      index: path.join(__dirname, 'index.html'),
       host: '127.0.0.1',
       port: 9000,
       open: true,
