@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('signin-button').addEventListener('click', event => {
     event.preventDefault();
     const redirectUrl = location.origin + location.pathname;
-    const manifestUrl = toAbsoluteURL('manifest.json');
+    const manifestUrl = toAbsoluteURL('dist/manifest.json');
     const authRequest = userSession.makeAuthRequest(undefined, redirectUrl, manifestUrl, undefined, undefined, undefined, {
       solicitGaiaHubUrl: true,
       recommendedGaiaHubUrl: 'https://develop-hub.blockstack.org'
-    })
+    });
     userSession.redirectToSignInWithAuthRequest(authRequest);
   });
   document.getElementById('signout-button').addEventListener('click', event => {
