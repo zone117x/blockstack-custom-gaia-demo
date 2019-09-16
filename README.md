@@ -6,4 +6,4 @@ See [src/index.js](src/index.js) for the example usage code.
 
 
 ### Live demo
-https://zone117x.github.io/blockstack-custom-gaia-demo/dist/index.html
+https://zone117x.github.io/blockstack-custom-gaia-demo/
