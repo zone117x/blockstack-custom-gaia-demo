@@ -1,4 +1,4 @@
-import blockstack, { DEFAULT_SCOPE } from 'blockstack';
+import blockstack from 'blockstack';
 
 function toAbsoluteURL(url) {
   const a = document.createElement('a');

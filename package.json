@@ -18,7 +18,7 @@
     "webpack-dev-server": "^3.5.1"
   },
   "dependencies": {
-    "blockstack": "github:blockstack/blockstack.js#feature/specify-content-length"
+    "blockstack": "^19.3.0"
   },
   "eslintIgnore": [
     "webpack.config.js"

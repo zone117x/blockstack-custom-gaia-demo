@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
       open: true,
       before: app => {
         // Configure manifest.json CORS headers.
-        app.get('/manifest.json', (req, res, next) => {
+        app.get('/dist/manifest.json', (req, res, next) => {
           res.set({
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Headers': '*',
